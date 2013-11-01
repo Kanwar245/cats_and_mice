@@ -1,0 +1,139 @@
+Assignment 4, Report File
+
+You must complete the appropriate sections of this report by the corresponding deadline.
+
+By the part B deadline, your report must be fully completed (i.e. should include both
+part A and part B answers).
+
+__________________________________________________________________________________________
+
+Student Identification and declaration of academic integrity:
+
+Last name: Gill
+
+First name: Kanwar Anmol Singh
+ 
+Student ID:998640742
+
+I certify that all code and answers submitted for this assignment are my own work:
+
+(Mark with an X if the above statement is true): X
+
+* If you did not mark with an X in the space above, disclose below any help you
+received and any code submitted that is not yours *
+__________________________________________________________________________________________
+
+Part A:
+
+Mark with an 'X' the corresponding choice
+
+																YES	NO	Partially working
+a) Implemented heap/priority queue and is used in Prim's MST	 X
+b) Completed a working implementation for Prim's MST algorithm	 			X
+c) Completed a working implementation for Dijkstra's method		 X
+
+* For any partially working function, briefly describe what is and what is not implemented *
+
+Questions:
+
+1) For a grid with GSIZE rows and columns, how many nodes are there in the graph?
+   (GSIZE)^2
+   
+2) What is the size of the adjacency matrix?
+   20x20 = 400
+
+3) For node i, where i corresponds to a grid location *not on the boundaries of the maze* 
+   give formulas to find the indices of i's top, bottom, left, and right neighbours
+   top: i - GSIZE
+   bottom: i + GSIZE
+   left: i - 1
+   right: i + 1
+
+4) Give an upper bound to the number of edges in the graph
+   2(GSIZE)^2 - 2(GSIZE)
+
+___________________________________________________________________________________________
+
+Part B:
+
+Mark with an 'X' where appropriate
+
+									                    YES 	NO 		Partially working
+a) Completed mouseWalk() function						X		____	____
+b) Completed kittyEyeWalk() function					X		____	____
+c) Completed kittySmellWalk() function					X		____	____
+d) Completed kittySmartSmell() function					X		____	____
+e) Completed kittySoundWalk() function					X		____	____
+f) Completed EvilKittiesOfDoom() function				X		____	____
+
+* For any partially implemented functions describe what is and what is not implemented *
+
+Game related questions (give concise answers, writing huge amounts of stuff is going
+ to cost you marks):
+
+1) What kitty update function (with the exception of EvilKittiesOfDoom() ) makes the kitties
+   harder to beat? Why is that?
+   soundWalk makes kitties harder to beat, since if mouse didn't step into hearing radius kitty
+   can use its smell, otherwise if the mouse steps inside the radius kitty can quickly go
+   towards it and eat it. Knowing that heardingRadius can be big too, it would be hard for the
+   mouse to escape. Even if outside the hearingRadius kitty will use its smell, and its unlikely
+   that all the kitties will get stuck in all cases.
+
+2) The shortest path algorithm computes an optimal path from A to B, if the mouse can not
+   escape by using the shortest path, does this mean it is not possible at all for the
+   mouse to escape given the initial conditions of the game?
+   Mouse can certainly escape by making a clever use of loops, since thats a possible way 
+   mouse can make sure kitties are following him, then the mouse can easily eat the
+   cheese and move towards the gate.
+
+3) The presence or absence of loops will definitely have an effect on how hard it is for 
+   the mouse and cats to find each other. For the mouse, does the presence of loops make
+   the game easier or harder?
+   Presence of loops for mouse will be a blessing for the mouse. Mouse can then make sure
+   that kitties are trailing it and can go for the cheese and then for the gate.
+
+4) So far the mouse does not use any form of 'game tree' to determine the optimal move.
+   Describe how a game tree would look like for this game, indicating what a node would
+   contain, and what the children of the node would contain. 
+   A node would contain all the grid positions for kitties/mouse, and the state 
+   (cheese eaten or not) of the game. The children would contain the same thing, but after 
+   a move or round of moves has been made, and the state of the game after a set of moves.
+
+5) Estimate roughly the number of children of each node in the game tree
+   Since each kitty/mouse can move upto 4 different positions (top, bottom, left, right) 
+   or not move if the kitty is stuck or when the mouse knows the shortest path to the
+   gate goes through a kitty. So roughly there should be 4^(numAgents)
+   children, where numAgents = 1 + no. of kitties
+
+6) Assuming 4 cats and your estimate in 5) what is the expected number of possible game
+   configurations for a game with 50 moves (a rather optimistic estimate of how many moves
+   are needed to get the mouse to the cheese and the exit).
+   Since each node has 4^(numAgents) children nodes, and numAgents = 5 in this case, and 
+   total moves is 50 which means 50 levels in the game tree. Hence, the expected number
+   of possible game configurations would be somewhere close to 4^(5)*50
+
+7) Assume that you're giving the mouse 1 second to search through the game tree during
+   each move, and that the computer can process 1x10^9 nodes in one second. Assuming 
+   the mouse uses BFS to check future game configurations to choose an optimal one, 
+   how many steps ahead can the mouse 'see' during that 1 second of 'thinking' time?
+   The mouse could see 10^9/4^5*50 = 19531.25 steps ahead.
+
+8) Finally. How would you score game configurations in the game tree so that the score
+   best represents the likelihood the mouse will escape? This is an open ended question,
+   I just want you to think about it and give me a reasonable answer.
+   I would hold the state information relating to whether cheese has been eaten, and/or
+   no kitty is blocking shortest path to the gate. If a kitty is blocking mouse's path,
+   then I would have a set of game configurations which will allow the mouse to enter loops
+   forcing the kitties to follow it rather than sitting in one position. Once, I know the state
+   has changed to loops, in which case I know kitties are trailing the mouse, I would
+   then change the state to reach the gate, and follow the best possible set of game
+   configurations which will allow the mouse to escape. Ofcourse, there will be *many*
+   game configurations to look at so the mouse will have to BFS through the game tree 
+   multiple times, but that should be fine since BFS doesn't have a bad runtime complexity.
+
+____________________________________________________________________________________________
+
+Crunchy stuff:
+
+List here and briefly describe any crunchy features you added, so we can check out your extra work!
+
