@@ -274,9 +274,4 @@ cats_and_mice
 <p class="p8 ft5">(5 marks): Completed all questions and information in REPORT.TXT</p>
 </div>
 
-<p>Solutions</p>
-<ul>
-	<li><a href="P4_PartA.zip">Part A</a></li>
-	<li><a href="P4_PartB.zip">Part B</a></li>
-</ul>	
 
