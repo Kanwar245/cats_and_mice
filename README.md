@@ -42,10 +42,6 @@ cats_and_mice
 </div>
 </div>
 <div id="page_3">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20123x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <div id="id_1">
@@ -110,10 +106,6 @@ cats_and_mice
 </div>
 </div>
 <div id="page_4">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20124x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <div id="id_1">
@@ -134,10 +126,6 @@ cats_and_mice
 </div>
 </div>
 <div id="page_5">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20125x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <div id="id_1">
@@ -146,18 +134,9 @@ cats_and_mice
 <p class="p42 ft2">Second Task:</p>
 <p class="p43 ft3">Implement <span class="ft10">Dijkstra's shortest path algorithm</span>. Your implementation should be able to compute the shortest path between any pair of nodes in the graph. The algorithm is short and straightforward, but you <span class="ft10">must know what you're doing </span>on the graph.</p>
 <p class="p44 ft4">Test your shortest path algorithm thoroughly since it will be used extensively. Once you have completed the shortest path function, the starter code will generate an image called <nobr>'path_0-0.ppm'</nobr> (or <nobr>'path_0-0.jpg'),</nobr> showing the shortest path from the <nobr>top-left</nobr> corner of the grid to the <nobr>bottom-right</nobr> corner. Make sure the path is correct, and test with different pairs of grid points until you're sure it works always.</p>
-<p class="p45 ft23">For part A, you need only complete Prim's algorithm and Dijkstra's shortest path method.</p>
-<p class="p49 ft5">Part A grading:</p>
-<p class="p50 ft8">(25 marks) Fast Prim's algorithm using heaps and priority queues or</p>
-<p class="p17 ft5">(10 marks) Slow Prim's algorithm using the adjacency matrix A directly</p>
-<p class="p51 ft5">(20 marks) Dijkstra's shortest path method</p>
-<p class="p52 ft23">(5 marks) Completed the required information for part A in the file REPORT.TXT (included with the starter code)</p>
 </div>
 </div>
 <div id="page_6">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20126x1.jpg" id="img1">
-</div>
 
 <div id="tx1"><span class="ft25">There is a good reason why I can update my projected path at every turn. See the crunchy stuff...</span></div>
 
@@ -181,10 +160,6 @@ cats_and_mice
 <p class="p68 ft3">If you want to think about it, look at the crunchy bits in the starter code.</p>
 </div>
 <div id="page_7">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20127x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <div id="id_1">
@@ -210,10 +185,6 @@ cats_and_mice
 </div>
 </div>
 <div id="page_8">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20128x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <div id="id_1">
@@ -253,18 +224,3 @@ cats_and_mice
 <p class="p19 ft26">S.K.</p>
 </div>
 </div>
-<div id="page_9">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20129x1.jpg" id="img1">
-</div>
-
-
-<div class="dclr"></div>
-<p class="p94 ft5">Part B Grading:</p>
-<p class="p95 ft8">(5 marks) : Completed mouseWalk() function for updating mouse position (10 marks): Completed kittyEyeWalk() function for visual cats</p>
-<p class="p8 ft5">(5 marks): Complete kittySmellWalk() function for scent tracking cats</p>
-<p class="p96 ft8">(10 marks): Completed kittySmartSmell() function for smart scent tracking cats (10 marks): Completed kittySoundWalk() function for sound following kitties (5 marks): Completed EvilKittiesOfDoom() function</p>
-<p class="p8 ft5">(5 marks): Completed all questions and information in REPORT.TXT</p>
-</div>
-
-
