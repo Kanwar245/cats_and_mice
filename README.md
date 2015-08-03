@@ -2,10 +2,6 @@ cats_and_mice
 =============
 
 <div id="page_1">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20121x1.jpg" id="img1">
-</div>
-
 
 <div class="dclr"></div>
 <p class="p1 ft1">Design and Analysis of Data Structures: Project 4</p>
@@ -13,9 +9,6 @@ cats_and_mice
 <p class="p3 ft0">May the best <nobr>graph-based</nobr> algorithm win!</p>
 </div>
 <div id="page_2">
-<div id="dimg1">
-<img src="A4_2012_images/A4_20122x1.jpg" id="img1">
-</div>
 
 
 <div class="dclr"></div>
