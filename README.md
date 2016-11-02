@@ -14,9 +14,8 @@ cats_and_mice
 <div class="dclr"></div>
 <div id="id_1">
 <p class="p5 ft2">The kitties are on the loose. What is a poor, <nobr>hard-working</nobr> mouse to do?</p>
-<p class="p6 ft3">This project is all about having fun with graphs. As we have already discussed in class, graphs are used in a very wide range of applications including artificial intelligence.</p>
-<p class="p7 ft4">For this project, you will take the role of both the mouse trying to find some lunch and get away before becoming lunch, and the kitties who are always hungry and looking for unsuspecting customers. You will be using a variety of graph based algorithms,</p>
-<p class="p8 ft6">and you will be responsible for planning the movement of each <span class="ft5">agent </span>in the maze.</p>
+<p class="p7 ft4">In this project, we take the role of both the mouse trying to find some lunch and get away before becoming lunch, and the kitties who are always hungry and looking for unsuspecting customers. We will be using a variety of graph based algorithms,</p>
+<p class="p8 ft6">and be responsible for planning the movement of each <span class="ft5">agent </span>in the maze.</p>
 <p class="p9 ft5">Learning Goals for this project:</p>
 <p class="p10 ft5">After completing this project, you should be able to:</p>
 <p class="p11 ft6"><span class="ft6">*</span><span class="ft7">Explain the structure of heaps and how to use them to implement priority queues</span></p>
