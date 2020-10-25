@@ -216,6 +216,6 @@ Cats and Mice!
 </tbody></table>
 </div>
 <div id="id_2">
-<p class="p19 ft26">S.K.</p>
+
 </div>
 </div>
