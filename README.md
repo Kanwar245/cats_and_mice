@@ -1,4 +1,4 @@
-cats_and_mice
+Cats and Mice!
 =============
 
 <div id="page_1">
@@ -27,9 +27,6 @@ cats_and_mice
 <p class="p12 ft6"><span class="ft6">*</span><span class="ft7">Interacting with the </span><span class="ft5">O/S </span>from your C program</p>
 <p class="p12 ft6"><span class="ft6">*</span><span class="ft7">Creating random mazes using trees</span></p>
 <p class="p15 ft3"><span class="ft6">*</span><span class="ft9">Representing and manipulating the </span><span class="ft10">state </span>of different agents in the game, <nobr>state-based</nobr> planning.</p>
-<p class="p16 ft4">Same as in project 2, there are places marked <span class="ft8">“// CRUNCHY:” </span>where you can have additional fun expanding and modifying the code. Crunchy bits are also</p>
-<p class="p17 ft6">worth extra credit.</p>
-<p class="p18 ft10">There are 2 parts to this project, with two different deadlines. Be sure to complete the work required for part A on time. No extensions can be given for either part A or B since we are constrained by the end of term.</p>
 </div>
 <div id="id_2">
 <div id="id_2_1">
