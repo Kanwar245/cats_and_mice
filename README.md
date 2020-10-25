@@ -4,7 +4,6 @@ Cats and Mice!
 <div id="page_1">
 
 <div class="dclr"></div>
-<p class="p1 ft1">Design and Analysis of Data Structures: Project 4</p>
 <p class="p2 ft0">Cats and Mice and Game A.I.s</p>
 <p class="p3 ft0">May the best <nobr>graph-based</nobr> algorithm win!</p>
 </div>
